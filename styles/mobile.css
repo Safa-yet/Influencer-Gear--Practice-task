@@ -1,0 +1,56 @@
+@media screen and (max-width:576px) {
+    .nav-container{
+        margin:35px auto;
+    }
+    .toogle-btn{
+        display: block;
+    }
+    .nav-cart{
+        display: block;
+    }
+    .logo{
+        font-size: 16px;
+    }
+    
+    ul{
+        display: none !important;
+    }
+    .hero-section, .feature{
+        flex-direction: column-reverse;
+    }
+    .hero-heading{
+        font-size: 28px;
+
+    }
+    .hero-text{
+        text-align: center;
+    }
+    .info{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .primary-btn{
+        margin: 16px auto;
+    }
+
+
+
+    .sponsor-box{
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .product-group{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+   .product img{
+    width: 100%;
+    object-fit: cover;
+   }
+
+   .feature img{
+    width: 100%;
+   }
+
+}
