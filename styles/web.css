@@ -228,4 +228,9 @@ footer h3 {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+.link-area:hover{
+    background-color: #e02c6d;
 }
